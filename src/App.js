@@ -1,21 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
+import { Fragment } from 'react';
+import { Btn } from './Button/btn';
+import { Benfits } from './Benifits/reactbenifits';
 
 function App() {
   return (
+    <Fragment>
     <div className="App">
+   <img src={logo} className="App-logo" alt="logo" />
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>Benifits of using React ...</h1>
-        <ol>
-          <li>Component based Architecture</li>
-          <li>Virtual DOM of efficient update</li>
-          <li>Rich ecosystem and community</li>
-          <li>Cross-Platform development</li>
-          <li>Strong Community Support</li>
-        </ol>
+    
+        <Benfits/>
+        <Btn/>
       </header>
     </div>
+    </Fragment>
+
   );
 }
 
