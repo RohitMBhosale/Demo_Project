@@ -1,0 +1,96 @@
+
+.container{
+   
+    width: 600px;
+    height:auto;
+    margin-top:30px;
+    padding:30px;
+    margin-right: auto;
+    margin-left :auto;
+    background-color: rgb(79, 72, 72);
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    border-radius: 20px;
+}
+
+.input_tag{
+    margin-top: 20px;
+    padding:18px;
+    border-radius: 10px;
+    text-align: center;
+    border:0px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+    font-size: 15px;
+
+}
+/* .btn{
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border:0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: blueviolet ; */
+
+.btn {
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 15px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 5px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.btn:active,
+.btn:hover {
+  outline: 0;
+}
+
+.btn span {
+  background-color: rgb(5, 6, 45);
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+
+.btn:hover span {
+  background: none;
+}
+
+@media (min-width: 768px) {
+  .btn {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
+
+.btn_div{
+ /* border: 1px solid black;  */
+    width:500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top :20px;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+}
