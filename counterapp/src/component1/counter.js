@@ -19,12 +19,14 @@ export default function Counterapp() {
         }
     }
 
+
+
     return (
         <div className="parent">
             <div className="container">
                 <h3 className="result">{count}</h3>
-                <button className="btn1" onClick={increaseValue}>increase </button>
-                <button className="btn1" onClick={decreaseValue}>decrease </button>
+                <button className="btn1" onClick={increaseValue}>Increase </button>
+                <button className="btn1" onClick={decreaseValue}>Decrease </button>
             </div>
         </div>
     )

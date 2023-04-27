@@ -19,6 +19,7 @@
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border: 0px;
+    background-color: rgb(129, 52, 197);
 }
 .result{
     font-size:larger;
