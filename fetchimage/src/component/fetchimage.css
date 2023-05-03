@@ -1,0 +1,17 @@
+
+img{
+width : 550px;
+height :450px;
+border-radius: 20px;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+.parent{
+ 
+    Width:60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border-radius: 10px;
+}
