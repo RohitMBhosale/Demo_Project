@@ -3,8 +3,6 @@ import axios from 'axios';
 import './otpgenerator.css';
 
 
-
-
 export default function GenerateOTP() {
 
     const [Num, setNum] = useState(' ');
@@ -19,7 +17,6 @@ export default function GenerateOTP() {
         else {
             setmessage("Entered Number is Valid");
             setNum(" ");
-
         }
     }
 
@@ -30,10 +27,9 @@ export default function GenerateOTP() {
         })
             .then((data) => setNum(data.mobile))
             .catch((error) => console.log(error))
-        validNum();
+     validNum();
 
     }
-
 
     return (
 
@@ -42,6 +38,7 @@ export default function GenerateOTP() {
             <button className="btn" onClick={getOTP}>Get OTP</button>
             <h2 className="heading">{message}</h2>
         </div>
-
     )
 }
+
+
