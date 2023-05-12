@@ -1,0 +1,21 @@
+
+
+
+.single-square{
+ min-width: 100px;
+ min-height: 100px;
+ text-align: center;
+ color:white;
+ font-size: 55px;
+     padding:25px;
+     /* font-weight: bold; */
+     cursor:crosshair;
+    
+}
+
+.single-square:hover{
+
+font-weight: bolder;
+  color:#c1ecf2;  
+}
+

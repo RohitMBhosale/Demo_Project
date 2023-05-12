@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+ display: flex;
+ flex-direction: column;
+text-align: center;
+align-items: center;
+}
+
+.para-section{
+  color:white;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  margin:20px;
+}
+
+.sections{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.border-btm-right{
+border-right: 7px solid #1CDBF5 ;
+border-bottom:7px solid #1CDBF5 ;
+}
+
+.border-btm{
+ border-bottom: 7px solid #1CDBF5;
+}
+.border-right{
+border-right: 7px solid #1CDBF5;
+}
+
+.btn{
+  padding:10px;
+margin-top:30px;
+  background-color: white; 
+  color: black; 
+  border: 2px solid #1CDBF5;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #1CDBF5;
+  color: #02505b;
+  border-radius: 5px;
+  font-weight: bold;
+  padding:11px;
+}
+
+
+
