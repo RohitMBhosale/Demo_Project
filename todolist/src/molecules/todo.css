@@ -1,0 +1,37 @@
+.list{
+    display: flex;
+}
+/* .btn1{
+    
+  padding:10px;
+    font-size: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+  
+} */
+
+
+.list li{
+
+color:white;
+font-size: 28px;
+border:1px solid white;
+width:80%;
+
+margin-right: auto;
+margin-bottom: 17px;
+list-style: none;
+display: flex;
+justify-content: space-around;
+align-items: center;
+border-radius: 5px;
+padding:7px
+
+
+    
+}
+
+.list li:hover{
+    font-weight: bold;
+    font-size: 28px;
+}
