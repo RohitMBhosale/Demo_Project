@@ -1,0 +1,30 @@
+.input_section{
+    border:1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:99vh;
+  
+}
+
+.input_box{
+  
+    width:max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(252, 139, 1);
+}
+
+input{
+    width:500px;
+    padding:13px;
+    border-radius: 20px;
+    font-size: 20px;
+    color: rgb(252, 139, 1);
+}
+.search_icon{
+    margin-left: 10px;
+    width:30px;
+    height:30px;
+}
