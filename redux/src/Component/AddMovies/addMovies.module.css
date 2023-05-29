@@ -1,0 +1,31 @@
+
+.add_Movies{
+ border:1px solid red;
+ display:flex;
+ justify-content: space-around;
+ align-items: center;
+ padding:20px;
+
+
+}
+.one_card{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius:10px;
+    border:1px solid green;
+    display:flex; 
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width:fit-content;
+
+}
+.btn{
+    width:100px;
+    padding:5px;
+    margin:10px;
+    border-radius: 10px;
+    font-variant:inherit;
+}
+.btn:hover{
+   font-weight: bold;
+}
